@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.1.1" sequence="0" timestamp="1605201095723" analysisTimestamp="1605201096113" release="0.0.1-SNAPSHOT">
+  <Project projectName="gilded-rose-kata (spotbugsTest)">
+    <Jar>/home/tabaa/Bureau/GildedRose/build/classes/java/test/com/gildedrose/TexttestFixture.class</Jar>
+    <Jar>/home/tabaa/Bureau/GildedRose/build/classes/java/test/com/gildedrose/GildedRoseTest.class</Jar>
+    <AuxClasspathEntry>/home/tabaa/Bureau/GildedRose/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/Bureau/GildedRose/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/com.approvaltests/approvaltests/9.3.0/b8fe39b84d84e236cf3282dd505409aa3ae83659/approvaltests-9.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/1820c0968dba3a11a1b30669bb1f01978a91dedc/hamcrest-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.4.2/665d1c0daecb26c6210c872768000b417e7e52b6/junit-jupiter-api-5.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.10.0/4898fc7b9a2f7f8457bd380f917b08416df313f7/assertj-core-3.10.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/com.approvaltests/approvaltests-util/9.3.0/c9e19555f525b6f8ab57b32c1371ebcb2becf5ae/approvaltests-util-9.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.2/37993dc807ca253aa347be8968a0ae7b70642dbc/junit-platform-commons-1.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.1/efd9f971e91074491ea55b19f67b13470cf4fcdd/opentest4j-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.6.2/935151eb71beff17a2ffac15dd80184a99a0514f/javax.mail-1.6.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tabaa/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar</AuxClasspathEntry>
+    <SrcDir>/home/tabaa/Bureau/GildedRose/src/test/resources</SrcDir>
+    <SrcDir>/home/tabaa/Bureau/GildedRose/src/test/java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 12 Nov 2020 18:11:35 +0100" total_classes="2" referenced_classes="27" total_bugs="0" total_size="31" num_packages="1" java_version="11.0.9" vm_version="11.0.9+11-Ubuntu-0ubuntu1.18.04.1" cpu_seconds="11.17" clock_seconds="9.71" peak_mbytes="103.83" alloc_mbytes="512.00" gc_seconds="0.14">
+    <FileStats path="com/gildedrose/GildedRoseTest.java" bugCount="0" size="13"/>
+    <FileStats path="com/gildedrose/TexttestFixture.java" bugCount="0" size="18"/>
+    <PackageStats package="com.gildedrose" total_bugs="0" total_types="2" total_size="31">
+      <ClassStats class="com.gildedrose.GildedRoseTest" sourceFile="GildedRoseTest.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.gildedrose.TexttestFixture" sourceFile="TexttestFixture.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1294" invocations="438" avgMicrosecondsPerInvocation="2955" maxMicrosecondsPerInvocation="63110" standardDeviationMicrosecondsPerInvocation="6415"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="757" invocations="442" avgMicrosecondsPerInvocation="1712" maxMicrosecondsPerInvocation="100535" standardDeviationMicrosecondsPerInvocation="7917"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="613" invocations="10" avgMicrosecondsPerInvocation="61309" maxMicrosecondsPerInvocation="238838" standardDeviationMicrosecondsPerInvocation="73488"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="308" invocations="5" avgMicrosecondsPerInvocation="61775" maxMicrosecondsPerInvocation="307326" standardDeviationMicrosecondsPerInvocation="122776"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="296" invocations="27" avgMicrosecondsPerInvocation="10996" maxMicrosecondsPerInvocation="78733" standardDeviationMicrosecondsPerInvocation="19770"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="184" invocations="2" avgMicrosecondsPerInvocation="92096" maxMicrosecondsPerInvocation="183808" standardDeviationMicrosecondsPerInvocation="91712"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="149" invocations="79" avgMicrosecondsPerInvocation="1892" maxMicrosecondsPerInvocation="28264" standardDeviationMicrosecondsPerInvocation="3948"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="145" invocations="27" avgMicrosecondsPerInvocation="5380" maxMicrosecondsPerInvocation="35477" standardDeviationMicrosecondsPerInvocation="7814"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="141" invocations="402" avgMicrosecondsPerInvocation="351" maxMicrosecondsPerInvocation="11542" standardDeviationMicrosecondsPerInvocation="1070"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="130" invocations="27" avgMicrosecondsPerInvocation="4842" maxMicrosecondsPerInvocation="53045" standardDeviationMicrosecondsPerInvocation="10961"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

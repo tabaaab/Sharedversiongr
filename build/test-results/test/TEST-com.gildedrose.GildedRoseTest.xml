@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gildedrose.GildedRoseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-14T19:19:58" hostname="tabaa-ThinkPad-T420" time="1.226">
+  <properties/>
+  <testcase name="updateQuality()" classname="com.gildedrose.GildedRoseTest" time="1.226"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
